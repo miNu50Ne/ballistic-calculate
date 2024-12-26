@@ -24,13 +24,13 @@ function(include_sub_directories_recursively root_dir)
 endfunction()
 
 # 包含头文件
-include_sub_directories_recursively(${PROJECT_SOURCE_DIR}/src)
-include_sub_directories_recursively(${PROJECT_SOURCE_DIR}/component)
+include_sub_directories_recursively(${PROJECT_SOURCE_DIR}/calculate)
+include_sub_directories_recursively(${PROJECT_SOURCE_DIR}/components)
 
 # 查找源文件
 file(GLOB_RECURSE SOURCES
-    "src/*.c"
-    "component/*.c"
+    "calculate/*.c"
+    "components/*.c"
 )
 
 add_executable(${PROJECT_NAME} ${SOURCES})
