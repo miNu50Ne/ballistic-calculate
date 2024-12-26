@@ -1,0 +1,36 @@
+# 指定cmake版本
+cmake_minimum_required(VERSION 3.27)
+
+# 指定工程名及使用语言
+project(ballistic_calc C)
+
+set(CMAKE_BUILD_TYPE Release)
+
+# add inc
+# 递归包含头文件
+function(include_sub_directories_recursively root_dir)
+    if(IS_DIRECTORY ${root_dir})
+        message("include dir: " ${root_dir})
+        include_directories(${root_dir})
+    endif()
+
+    file(GLOB ALL_SUB RELATIVE ${root_dir} ${root_dir}/*)
+
+    foreach(sub ${ALL_SUB})
+        if(IS_DIRECTORY ${root_dir}/${sub})
+            include_sub_directories_recursively(${root_dir}/${sub})
+        endif()
+    endforeach()
+endfunction()
+
+# 包含头文件
+include_sub_directories_recursively(${PROJECT_SOURCE_DIR}/src)
+include_sub_directories_recursively(${PROJECT_SOURCE_DIR}/component)
+
+# 查找源文件
+file(GLOB_RECURSE SOURCES
+    "src/*.c"
+    "component/*.c"
+)
+
+add_executable(${PROJECT_NAME} ${SOURCES})
