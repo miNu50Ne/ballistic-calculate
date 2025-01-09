@@ -1,36 +1,24 @@
-# 指定cmake版本
 cmake_minimum_required(VERSION 3.27)
 
-# 指定工程名及使用语言
 project(ballistic_calc C)
 
+# set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(CMAKE_BUILD_TYPE Release)
 
 # add inc
-# 递归包含头文件
-function(include_sub_directories_recursively root_dir)
-    if(IS_DIRECTORY ${root_dir})
-        message("include dir: " ${root_dir})
-        include_directories(${root_dir})
+include_directories(${PROJECT_SOURCE_DIR}/..)
+
+set(PRO_ROOT_DIR ${CMAKE_SOURCE_DIR}/..)
+
+file(GLOB SUBDIRECTORIES RELATIVE ${CMAKE_SOURCE_DIR} ${CMAKE_SOURCE_DIR}/*)
+
+file(GLOB_RECURSE COMPONENTS_SOURCES ${PRO_ROOT_DIR}/components/*.c)
+
+message(STATUS "Found source files in components: ${COMPONENTS_SOURCES}")
+
+foreach(SUBDIR ${SUBDIRECTORIES})
+    if(IS_DIRECTORY "${CMAKE_SOURCE_DIR}/${SUBDIR}" AND EXISTS "${CMAKE_SOURCE_DIR}/${SUBDIR}/main.c")
+        # Add executable named after the subdirectory
+        add_executable(${SUBDIR} ${CMAKE_SOURCE_DIR}/${SUBDIR}/main.c ${COMPONENTS_SOURCES})
     endif()
-
-    file(GLOB ALL_SUB RELATIVE ${root_dir} ${root_dir}/*)
-
-    foreach(sub ${ALL_SUB})
-        if(IS_DIRECTORY ${root_dir}/${sub})
-            include_sub_directories_recursively(${root_dir}/${sub})
-        endif()
-    endforeach()
-endfunction()
-
-# 包含头文件
-include_sub_directories_recursively(${PROJECT_SOURCE_DIR}/calculate)
-include_sub_directories_recursively(${PROJECT_SOURCE_DIR}/components)
-
-# 查找源文件
-file(GLOB_RECURSE SOURCES
-    "calculate/*.c"
-    "components/*.c"
-)
-
-add_executable(${PROJECT_NAME} ${SOURCES})
+endforeach()

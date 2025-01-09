@@ -12,7 +12,6 @@
 #include <math.h>
 #include <stdio.h>
 
-
 // 常数定义
 #define G              9.806     // 重力加速度 (m/s^2)
 #define R              6371000.0 // 地球半径 (m)
