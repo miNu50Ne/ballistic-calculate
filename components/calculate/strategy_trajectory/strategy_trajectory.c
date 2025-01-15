@@ -128,7 +128,7 @@ double* dynamics_equations(double time, double* variable) {
 }
 
 void strategy_trajectory_calc() {
-    printf("hello world!");
+
     FILE* log_file = fopen("strategy_trajectory_log.txt", "w");
     FILE* csv_file = fopen("strategy_trajectory_data.csv", "w");
 

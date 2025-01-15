@@ -4,6 +4,32 @@
 CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/algorithm/algorithm.c.obj: D:/dev/ballistic-calculate/components/algorithm/algorithm.c \
   D:/dev/ballistic-calculate/components/algorithm/algorithm.h
 
+CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.c.obj: D:/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.c \
+  D:/dev/ballistic-calculate/components/log/log.h \
+  D:/msys64/mingw64/include/_mingw.h \
+  D:/msys64/mingw64/include/_mingw_mac.h \
+  D:/msys64/mingw64/include/_mingw_off_t.h \
+  D:/msys64/mingw64/include/_mingw_secapi.h \
+  D:/msys64/mingw64/include/corecrt.h \
+  D:/msys64/mingw64/include/corecrt_stdio_config.h \
+  D:/msys64/mingw64/include/corecrt_wstdlib.h \
+  D:/msys64/mingw64/include/crtdefs.h \
+  D:/msys64/mingw64/include/errno.h \
+  D:/msys64/mingw64/include/limits.h \
+  D:/msys64/mingw64/include/malloc.h \
+  D:/msys64/mingw64/include/math.h \
+  D:/msys64/mingw64/include/sdks/_mingw_ddk.h \
+  D:/msys64/mingw64/include/sec_api/stdio_s.h \
+  D:/msys64/mingw64/include/sec_api/stdlib_s.h \
+  D:/msys64/mingw64/include/stdio.h \
+  D:/msys64/mingw64/include/stdlib.h \
+  D:/msys64/mingw64/include/swprintf.inl \
+  D:/msys64/mingw64/include/vadefs.h \
+  D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h \
+  D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_malloc.h \
+  D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/syslimits.h \
+  D:/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.h
+
 CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.obj: D:/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c \
   D:/dev/ballistic-calculate/components/algorithm/algorithm.h \
   D:/dev/ballistic-calculate/components/log/log.h \
@@ -44,15 +70,17 @@ CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/log/log
 CMakeFiles/trajectory_overload.dir/trajectory_overload/main.c.obj: D:/dev/ballistic-calculate/src/trajectory_overload/main.c
 
 
+D:/msys64/mingw64/include/sec_api/stdlib_s.h:
+
 D:/msys64/mingw64/include/_mingw_mac.h:
 
 D:/msys64/mingw64/include/_mingw.h:
 
 D:/dev/ballistic-calculate/components/algorithm/algorithm.c:
 
-D:/dev/ballistic-calculate/components/algorithm/algorithm.h:
+D:/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.c:
 
-D:/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c:
+D:/dev/ballistic-calculate/components/algorithm/algorithm.h:
 
 D:/msys64/mingw64/include/_mingw_off_t.h:
 
@@ -66,11 +94,21 @@ D:/msys64/mingw64/include/corecrt.h:
 
 D:/msys64/mingw64/include/corecrt_stdio_config.h:
 
+D:/msys64/mingw64/include/corecrt_wstdlib.h:
+
 D:/msys64/mingw64/include/time.h:
 
 D:/dev/ballistic-calculate/components/log/log.c:
 
 D:/msys64/mingw64/include/crtdefs.h:
+
+D:/msys64/mingw64/include/errno.h:
+
+D:/msys64/mingw64/include/stdlib.h:
+
+D:/msys64/mingw64/include/limits.h:
+
+D:/msys64/mingw64/include/malloc.h:
 
 D:/dev/ballistic-calculate/src/trajectory_overload/main.c:
 
@@ -83,6 +121,16 @@ D:/msys64/mingw64/include/stdio.h:
 D:/msys64/mingw64/include/swprintf.inl:
 
 D:/msys64/mingw64/include/vadefs.h:
+
+D:/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c:
+
+D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h:
+
+D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_malloc.h:
+
+D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/syslimits.h:
+
+D:/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.h:
 
 D:/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.h:
 

@@ -129,17 +129,17 @@ guidance_system/fast:
 .PHONY : guidance_system/fast
 
 #=============================================================================
-# Target rules for targets named reality_trajectory
+# Target rules for targets named missile_trajectory
 
 # Build rule for target.
-reality_trajectory: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 reality_trajectory
-.PHONY : reality_trajectory
+missile_trajectory: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 missile_trajectory
+.PHONY : missile_trajectory
 
 # fast build rule for target.
-reality_trajectory/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\reality_trajectory.dir\build.make CMakeFiles/reality_trajectory.dir/build
-.PHONY : reality_trajectory/fast
+missile_trajectory/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\missile_trajectory.dir\build.make CMakeFiles/missile_trajectory.dir/build
+.PHONY : missile_trajectory/fast
 
 #=============================================================================
 # Target rules for targets named strategy_trajectory
@@ -173,7 +173,7 @@ D_/dev/ballistic-calculate/components/algorithm/algorithm.obj: D_/dev/ballistic-
 # target to build an object file
 D_/dev/ballistic-calculate/components/algorithm/algorithm.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\guidance_system.dir\build.make CMakeFiles/guidance_system.dir/D_/dev/ballistic-calculate/components/algorithm/algorithm.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\reality_trajectory.dir\build.make CMakeFiles/reality_trajectory.dir/D_/dev/ballistic-calculate/components/algorithm/algorithm.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\missile_trajectory.dir\build.make CMakeFiles/missile_trajectory.dir/D_/dev/ballistic-calculate/components/algorithm/algorithm.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\strategy_trajectory.dir\build.make CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/algorithm/algorithm.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\trajectory_overload.dir\build.make CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/algorithm/algorithm.c.obj
 .PHONY : D_/dev/ballistic-calculate/components/algorithm/algorithm.c.obj
@@ -184,7 +184,7 @@ D_/dev/ballistic-calculate/components/algorithm/algorithm.i: D_/dev/ballistic-ca
 # target to preprocess a source file
 D_/dev/ballistic-calculate/components/algorithm/algorithm.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\guidance_system.dir\build.make CMakeFiles/guidance_system.dir/D_/dev/ballistic-calculate/components/algorithm/algorithm.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\reality_trajectory.dir\build.make CMakeFiles/reality_trajectory.dir/D_/dev/ballistic-calculate/components/algorithm/algorithm.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\missile_trajectory.dir\build.make CMakeFiles/missile_trajectory.dir/D_/dev/ballistic-calculate/components/algorithm/algorithm.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\strategy_trajectory.dir\build.make CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/algorithm/algorithm.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\trajectory_overload.dir\build.make CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/algorithm/algorithm.c.i
 .PHONY : D_/dev/ballistic-calculate/components/algorithm/algorithm.c.i
@@ -195,10 +195,43 @@ D_/dev/ballistic-calculate/components/algorithm/algorithm.s: D_/dev/ballistic-ca
 # target to generate assembly for a file
 D_/dev/ballistic-calculate/components/algorithm/algorithm.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\guidance_system.dir\build.make CMakeFiles/guidance_system.dir/D_/dev/ballistic-calculate/components/algorithm/algorithm.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\reality_trajectory.dir\build.make CMakeFiles/reality_trajectory.dir/D_/dev/ballistic-calculate/components/algorithm/algorithm.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\missile_trajectory.dir\build.make CMakeFiles/missile_trajectory.dir/D_/dev/ballistic-calculate/components/algorithm/algorithm.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\strategy_trajectory.dir\build.make CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/algorithm/algorithm.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\trajectory_overload.dir\build.make CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/algorithm/algorithm.c.s
 .PHONY : D_/dev/ballistic-calculate/components/algorithm/algorithm.c.s
+
+D_/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.obj: D_/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.c.obj
+.PHONY : D_/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.obj
+
+# target to build an object file
+D_/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\guidance_system.dir\build.make CMakeFiles/guidance_system.dir/D_/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\missile_trajectory.dir\build.make CMakeFiles/missile_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\strategy_trajectory.dir\build.make CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trajectory_overload.dir\build.make CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.c.obj
+.PHONY : D_/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.c.obj
+
+D_/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.i: D_/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.c.i
+.PHONY : D_/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.i
+
+# target to preprocess a source file
+D_/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\guidance_system.dir\build.make CMakeFiles/guidance_system.dir/D_/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\missile_trajectory.dir\build.make CMakeFiles/missile_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\strategy_trajectory.dir\build.make CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trajectory_overload.dir\build.make CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.c.i
+.PHONY : D_/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.c.i
+
+D_/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.s: D_/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.c.s
+.PHONY : D_/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.s
+
+# target to generate assembly for a file
+D_/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\guidance_system.dir\build.make CMakeFiles/guidance_system.dir/D_/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\missile_trajectory.dir\build.make CMakeFiles/missile_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\strategy_trajectory.dir\build.make CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trajectory_overload.dir\build.make CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.c.s
+.PHONY : D_/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.c.s
 
 D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.obj: D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.obj
 .PHONY : D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.obj
@@ -206,7 +239,7 @@ D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_tra
 # target to build an object file
 D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\guidance_system.dir\build.make CMakeFiles/guidance_system.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\reality_trajectory.dir\build.make CMakeFiles/reality_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\missile_trajectory.dir\build.make CMakeFiles/missile_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\strategy_trajectory.dir\build.make CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\trajectory_overload.dir\build.make CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.obj
 .PHONY : D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.obj
@@ -217,7 +250,7 @@ D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_tra
 # target to preprocess a source file
 D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\guidance_system.dir\build.make CMakeFiles/guidance_system.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\reality_trajectory.dir\build.make CMakeFiles/reality_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\missile_trajectory.dir\build.make CMakeFiles/missile_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\strategy_trajectory.dir\build.make CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\trajectory_overload.dir\build.make CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.i
 .PHONY : D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.i
@@ -228,7 +261,7 @@ D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_tra
 # target to generate assembly for a file
 D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\guidance_system.dir\build.make CMakeFiles/guidance_system.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\reality_trajectory.dir\build.make CMakeFiles/reality_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\missile_trajectory.dir\build.make CMakeFiles/missile_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\strategy_trajectory.dir\build.make CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\trajectory_overload.dir\build.make CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.s
 .PHONY : D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.s
@@ -239,7 +272,7 @@ D_/dev/ballistic-calculate/components/log/log.obj: D_/dev/ballistic-calculate/co
 # target to build an object file
 D_/dev/ballistic-calculate/components/log/log.c.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\guidance_system.dir\build.make CMakeFiles/guidance_system.dir/D_/dev/ballistic-calculate/components/log/log.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\reality_trajectory.dir\build.make CMakeFiles/reality_trajectory.dir/D_/dev/ballistic-calculate/components/log/log.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\missile_trajectory.dir\build.make CMakeFiles/missile_trajectory.dir/D_/dev/ballistic-calculate/components/log/log.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\strategy_trajectory.dir\build.make CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/log/log.c.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\trajectory_overload.dir\build.make CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/log/log.c.obj
 .PHONY : D_/dev/ballistic-calculate/components/log/log.c.obj
@@ -250,7 +283,7 @@ D_/dev/ballistic-calculate/components/log/log.i: D_/dev/ballistic-calculate/comp
 # target to preprocess a source file
 D_/dev/ballistic-calculate/components/log/log.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\guidance_system.dir\build.make CMakeFiles/guidance_system.dir/D_/dev/ballistic-calculate/components/log/log.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\reality_trajectory.dir\build.make CMakeFiles/reality_trajectory.dir/D_/dev/ballistic-calculate/components/log/log.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\missile_trajectory.dir\build.make CMakeFiles/missile_trajectory.dir/D_/dev/ballistic-calculate/components/log/log.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\strategy_trajectory.dir\build.make CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/log/log.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\trajectory_overload.dir\build.make CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/log/log.c.i
 .PHONY : D_/dev/ballistic-calculate/components/log/log.c.i
@@ -261,7 +294,7 @@ D_/dev/ballistic-calculate/components/log/log.s: D_/dev/ballistic-calculate/comp
 # target to generate assembly for a file
 D_/dev/ballistic-calculate/components/log/log.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\guidance_system.dir\build.make CMakeFiles/guidance_system.dir/D_/dev/ballistic-calculate/components/log/log.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\reality_trajectory.dir\build.make CMakeFiles/reality_trajectory.dir/D_/dev/ballistic-calculate/components/log/log.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\missile_trajectory.dir\build.make CMakeFiles/missile_trajectory.dir/D_/dev/ballistic-calculate/components/log/log.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\strategy_trajectory.dir\build.make CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/log/log.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\trajectory_overload.dir\build.make CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/log/log.c.s
 .PHONY : D_/dev/ballistic-calculate/components/log/log.c.s
@@ -290,29 +323,29 @@ guidance_system/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\guidance_system.dir\build.make CMakeFiles/guidance_system.dir/guidance_system/main.c.s
 .PHONY : guidance_system/main.c.s
 
-reality_trajectory/main.obj: reality_trajectory/main.c.obj
-.PHONY : reality_trajectory/main.obj
+missile_trajectory/main.obj: missile_trajectory/main.c.obj
+.PHONY : missile_trajectory/main.obj
 
 # target to build an object file
-reality_trajectory/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\reality_trajectory.dir\build.make CMakeFiles/reality_trajectory.dir/reality_trajectory/main.c.obj
-.PHONY : reality_trajectory/main.c.obj
+missile_trajectory/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\missile_trajectory.dir\build.make CMakeFiles/missile_trajectory.dir/missile_trajectory/main.c.obj
+.PHONY : missile_trajectory/main.c.obj
 
-reality_trajectory/main.i: reality_trajectory/main.c.i
-.PHONY : reality_trajectory/main.i
+missile_trajectory/main.i: missile_trajectory/main.c.i
+.PHONY : missile_trajectory/main.i
 
 # target to preprocess a source file
-reality_trajectory/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\reality_trajectory.dir\build.make CMakeFiles/reality_trajectory.dir/reality_trajectory/main.c.i
-.PHONY : reality_trajectory/main.c.i
+missile_trajectory/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\missile_trajectory.dir\build.make CMakeFiles/missile_trajectory.dir/missile_trajectory/main.c.i
+.PHONY : missile_trajectory/main.c.i
 
-reality_trajectory/main.s: reality_trajectory/main.c.s
-.PHONY : reality_trajectory/main.s
+missile_trajectory/main.s: missile_trajectory/main.c.s
+.PHONY : missile_trajectory/main.s
 
 # target to generate assembly for a file
-reality_trajectory/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\reality_trajectory.dir\build.make CMakeFiles/reality_trajectory.dir/reality_trajectory/main.c.s
-.PHONY : reality_trajectory/main.c.s
+missile_trajectory/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\missile_trajectory.dir\build.make CMakeFiles/missile_trajectory.dir/missile_trajectory/main.c.s
+.PHONY : missile_trajectory/main.c.s
 
 strategy_trajectory/main.obj: strategy_trajectory/main.c.obj
 .PHONY : strategy_trajectory/main.obj
@@ -371,12 +404,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... guidance_system
-	@echo ... reality_trajectory
+	@echo ... missile_trajectory
 	@echo ... strategy_trajectory
 	@echo ... trajectory_overload
 	@echo ... D_/dev/ballistic-calculate/components/algorithm/algorithm.obj
 	@echo ... D_/dev/ballistic-calculate/components/algorithm/algorithm.i
 	@echo ... D_/dev/ballistic-calculate/components/algorithm/algorithm.s
+	@echo ... D_/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.obj
+	@echo ... D_/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.i
+	@echo ... D_/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.s
 	@echo ... D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.obj
 	@echo ... D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.i
 	@echo ... D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.s
@@ -386,9 +422,9 @@ help:
 	@echo ... guidance_system/main.obj
 	@echo ... guidance_system/main.i
 	@echo ... guidance_system/main.s
-	@echo ... reality_trajectory/main.obj
-	@echo ... reality_trajectory/main.i
-	@echo ... reality_trajectory/main.s
+	@echo ... missile_trajectory/main.obj
+	@echo ... missile_trajectory/main.i
+	@echo ... missile_trajectory/main.s
 	@echo ... strategy_trajectory/main.obj
 	@echo ... strategy_trajectory/main.i
 	@echo ... strategy_trajectory/main.s

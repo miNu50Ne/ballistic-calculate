@@ -16,7 +16,6 @@ file(GLOB SUBDIRECTORIES RELATIVE ${CMAKE_SOURCE_DIR} ${CMAKE_SOURCE_DIR}/*)
 
 file(GLOB_RECURSE COMPONENTS_SOURCES ${PRO_ROOT_DIR}/components/*.c)
 
-# message(STATUS "Found source files in components: ${COMPONENTS_SOURCES}")
 foreach(SUBDIR ${SUBDIRECTORIES})
     if(IS_DIRECTORY "${CMAKE_SOURCE_DIR}/${SUBDIR}" AND EXISTS "${CMAKE_SOURCE_DIR}/${SUBDIR}/main.c")
         # Add executable named after the subdirectory
