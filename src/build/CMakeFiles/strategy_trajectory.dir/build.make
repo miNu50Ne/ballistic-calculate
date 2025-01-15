@@ -98,20 +98,20 @@ CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/algorit
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/algorithm/algorithm.c.s"
 	D:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\dev\ballistic-calculate\components\algorithm\algorithm.c -o CMakeFiles\strategy_trajectory.dir\D_\dev\ballistic-calculate\components\algorithm\algorithm.c.s
 
-CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory.c.obj: CMakeFiles/strategy_trajectory.dir/flags.make
-CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory.c.obj: CMakeFiles/strategy_trajectory.dir/includes_C.rsp
-CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory.c.obj: D:/dev/ballistic-calculate/components/calculate/strategy_trajectory.c
-CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory.c.obj: CMakeFiles/strategy_trajectory.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\dev\ballistic-calculate\src\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory.c.obj"
-	D:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory.c.obj -MF CMakeFiles\strategy_trajectory.dir\D_\dev\ballistic-calculate\components\calculate\strategy_trajectory.c.obj.d -o CMakeFiles\strategy_trajectory.dir\D_\dev\ballistic-calculate\components\calculate\strategy_trajectory.c.obj -c D:\dev\ballistic-calculate\components\calculate\strategy_trajectory.c
+CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.obj: CMakeFiles/strategy_trajectory.dir/flags.make
+CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.obj: CMakeFiles/strategy_trajectory.dir/includes_C.rsp
+CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.obj: D:/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c
+CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.obj: CMakeFiles/strategy_trajectory.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\dev\ballistic-calculate\src\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.obj"
+	D:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.obj -MF CMakeFiles\strategy_trajectory.dir\D_\dev\ballistic-calculate\components\calculate\strategy_trajectory\strategy_trajectory.c.obj.d -o CMakeFiles\strategy_trajectory.dir\D_\dev\ballistic-calculate\components\calculate\strategy_trajectory\strategy_trajectory.c.obj -c D:\dev\ballistic-calculate\components\calculate\strategy_trajectory\strategy_trajectory.c
 
-CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory.c.i"
-	D:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\dev\ballistic-calculate\components\calculate\strategy_trajectory.c > CMakeFiles\strategy_trajectory.dir\D_\dev\ballistic-calculate\components\calculate\strategy_trajectory.c.i
+CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.i"
+	D:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\dev\ballistic-calculate\components\calculate\strategy_trajectory\strategy_trajectory.c > CMakeFiles\strategy_trajectory.dir\D_\dev\ballistic-calculate\components\calculate\strategy_trajectory\strategy_trajectory.c.i
 
-CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory.c.s"
-	D:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\dev\ballistic-calculate\components\calculate\strategy_trajectory.c -o CMakeFiles\strategy_trajectory.dir\D_\dev\ballistic-calculate\components\calculate\strategy_trajectory.c.s
+CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.s"
+	D:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\dev\ballistic-calculate\components\calculate\strategy_trajectory\strategy_trajectory.c -o CMakeFiles\strategy_trajectory.dir\D_\dev\ballistic-calculate\components\calculate\strategy_trajectory\strategy_trajectory.c.s
 
 CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/log/log.c.obj: CMakeFiles/strategy_trajectory.dir/flags.make
 CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/log/log.c.obj: CMakeFiles/strategy_trajectory.dir/includes_C.rsp
@@ -132,7 +132,7 @@ CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/log/log
 strategy_trajectory_OBJECTS = \
 "CMakeFiles/strategy_trajectory.dir/strategy_trajectory/main.c.obj" \
 "CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/algorithm/algorithm.c.obj" \
-"CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory.c.obj" \
+"CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.obj" \
 "CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/log/log.c.obj"
 
 # External object files for target strategy_trajectory
@@ -140,7 +140,7 @@ strategy_trajectory_EXTERNAL_OBJECTS =
 
 strategy_trajectory.exe: CMakeFiles/strategy_trajectory.dir/strategy_trajectory/main.c.obj
 strategy_trajectory.exe: CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/algorithm/algorithm.c.obj
-strategy_trajectory.exe: CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory.c.obj
+strategy_trajectory.exe: CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.obj
 strategy_trajectory.exe: CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/log/log.c.obj
 strategy_trajectory.exe: CMakeFiles/strategy_trajectory.dir/build.make
 strategy_trajectory.exe: CMakeFiles/strategy_trajectory.dir/linkLibs.rsp

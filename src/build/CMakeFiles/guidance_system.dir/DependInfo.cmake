@@ -9,7 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/dev/ballistic-calculate/components/algorithm/algorithm.c" "CMakeFiles/guidance_system.dir/D_/dev/ballistic-calculate/components/algorithm/algorithm.c.obj" "gcc" "CMakeFiles/guidance_system.dir/D_/dev/ballistic-calculate/components/algorithm/algorithm.c.obj.d"
-  "D:/dev/ballistic-calculate/components/calculate/strategy_trajectory.c" "CMakeFiles/guidance_system.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory.c.obj" "gcc" "CMakeFiles/guidance_system.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory.c.obj.d"
+  "D:/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c" "CMakeFiles/guidance_system.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.obj" "gcc" "CMakeFiles/guidance_system.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.obj.d"
   "D:/dev/ballistic-calculate/components/log/log.c" "CMakeFiles/guidance_system.dir/D_/dev/ballistic-calculate/components/log/log.c.obj" "gcc" "CMakeFiles/guidance_system.dir/D_/dev/ballistic-calculate/components/log/log.c.obj.d"
   "D:/dev/ballistic-calculate/src/guidance_system/main.c" "CMakeFiles/guidance_system.dir/guidance_system/main.c.obj" "gcc" "CMakeFiles/guidance_system.dir/guidance_system/main.c.obj.d"
   )

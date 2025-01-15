@@ -13,9 +13,9 @@
 },
 {
   "directory": "D:/dev/ballistic-calculate/src/build",
-  "command": "D:\\msys64\\mingw64\\bin\\cc.exe  @CMakeFiles/guidance_system.dir/includes_C.rsp -g -o CMakeFiles\\guidance_system.dir\\D_\\dev\\ballistic-calculate\\components\\calculate\\strategy_trajectory.c.obj -c D:\\dev\\ballistic-calculate\\components\\calculate\\strategy_trajectory.c",
-  "file": "D:/dev/ballistic-calculate/components/calculate/strategy_trajectory.c",
-  "output": "CMakeFiles/guidance_system.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory.c.obj"
+  "command": "D:\\msys64\\mingw64\\bin\\cc.exe  @CMakeFiles/guidance_system.dir/includes_C.rsp -g -o CMakeFiles\\guidance_system.dir\\D_\\dev\\ballistic-calculate\\components\\calculate\\strategy_trajectory\\strategy_trajectory.c.obj -c D:\\dev\\ballistic-calculate\\components\\calculate\\strategy_trajectory\\strategy_trajectory.c",
+  "file": "D:/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c",
+  "output": "CMakeFiles/guidance_system.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.obj"
 },
 {
   "directory": "D:/dev/ballistic-calculate/src/build",
@@ -37,9 +37,9 @@
 },
 {
   "directory": "D:/dev/ballistic-calculate/src/build",
-  "command": "D:\\msys64\\mingw64\\bin\\cc.exe  @CMakeFiles/reality_trajectory.dir/includes_C.rsp -g -o CMakeFiles\\reality_trajectory.dir\\D_\\dev\\ballistic-calculate\\components\\calculate\\strategy_trajectory.c.obj -c D:\\dev\\ballistic-calculate\\components\\calculate\\strategy_trajectory.c",
-  "file": "D:/dev/ballistic-calculate/components/calculate/strategy_trajectory.c",
-  "output": "CMakeFiles/reality_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory.c.obj"
+  "command": "D:\\msys64\\mingw64\\bin\\cc.exe  @CMakeFiles/reality_trajectory.dir/includes_C.rsp -g -o CMakeFiles\\reality_trajectory.dir\\D_\\dev\\ballistic-calculate\\components\\calculate\\strategy_trajectory\\strategy_trajectory.c.obj -c D:\\dev\\ballistic-calculate\\components\\calculate\\strategy_trajectory\\strategy_trajectory.c",
+  "file": "D:/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c",
+  "output": "CMakeFiles/reality_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.obj"
 },
 {
   "directory": "D:/dev/ballistic-calculate/src/build",
@@ -61,9 +61,9 @@
 },
 {
   "directory": "D:/dev/ballistic-calculate/src/build",
-  "command": "D:\\msys64\\mingw64\\bin\\cc.exe  @CMakeFiles/strategy_trajectory.dir/includes_C.rsp -g -o CMakeFiles\\strategy_trajectory.dir\\D_\\dev\\ballistic-calculate\\components\\calculate\\strategy_trajectory.c.obj -c D:\\dev\\ballistic-calculate\\components\\calculate\\strategy_trajectory.c",
-  "file": "D:/dev/ballistic-calculate/components/calculate/strategy_trajectory.c",
-  "output": "CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory.c.obj"
+  "command": "D:\\msys64\\mingw64\\bin\\cc.exe  @CMakeFiles/strategy_trajectory.dir/includes_C.rsp -g -o CMakeFiles\\strategy_trajectory.dir\\D_\\dev\\ballistic-calculate\\components\\calculate\\strategy_trajectory\\strategy_trajectory.c.obj -c D:\\dev\\ballistic-calculate\\components\\calculate\\strategy_trajectory\\strategy_trajectory.c",
+  "file": "D:/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c",
+  "output": "CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.obj"
 },
 {
   "directory": "D:/dev/ballistic-calculate/src/build",
@@ -85,9 +85,9 @@
 },
 {
   "directory": "D:/dev/ballistic-calculate/src/build",
-  "command": "D:\\msys64\\mingw64\\bin\\cc.exe  @CMakeFiles/trajectory_overload.dir/includes_C.rsp -g -o CMakeFiles\\trajectory_overload.dir\\D_\\dev\\ballistic-calculate\\components\\calculate\\strategy_trajectory.c.obj -c D:\\dev\\ballistic-calculate\\components\\calculate\\strategy_trajectory.c",
-  "file": "D:/dev/ballistic-calculate/components/calculate/strategy_trajectory.c",
-  "output": "CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory.c.obj"
+  "command": "D:\\msys64\\mingw64\\bin\\cc.exe  @CMakeFiles/trajectory_overload.dir/includes_C.rsp -g -o CMakeFiles\\trajectory_overload.dir\\D_\\dev\\ballistic-calculate\\components\\calculate\\strategy_trajectory\\strategy_trajectory.c.obj -c D:\\dev\\ballistic-calculate\\components\\calculate\\strategy_trajectory\\strategy_trajectory.c",
+  "file": "D:/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c",
+  "output": "CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.obj"
 },
 {
   "directory": "D:/dev/ballistic-calculate/src/build",

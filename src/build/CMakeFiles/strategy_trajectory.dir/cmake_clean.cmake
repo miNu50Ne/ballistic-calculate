@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/algorithm/algorithm.c.obj"
   "CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/algorithm/algorithm.c.obj.d"
-  "CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory.c.obj"
-  "CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory.c.obj.d"
+  "CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.obj"
+  "CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.obj.d"
   "CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/log/log.c.obj"
   "CMakeFiles/strategy_trajectory.dir/D_/dev/ballistic-calculate/components/log/log.c.obj.d"
   "CMakeFiles/strategy_trajectory.dir/strategy_trajectory/main.c.obj"
