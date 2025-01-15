@@ -98,11 +98,26 @@ CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/algorit
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/algorithm/algorithm.c.s"
 	D:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\dev\ballistic-calculate\components\algorithm\algorithm.c -o CMakeFiles\trajectory_overload.dir\D_\dev\ballistic-calculate\components\algorithm\algorithm.c.s
 
+CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/guidance_system/guidance_system.c.obj: CMakeFiles/trajectory_overload.dir/flags.make
+CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/guidance_system/guidance_system.c.obj: CMakeFiles/trajectory_overload.dir/includes_C.rsp
+CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/guidance_system/guidance_system.c.obj: D:/dev/ballistic-calculate/components/calculate/guidance_system/guidance_system.c
+CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/guidance_system/guidance_system.c.obj: CMakeFiles/trajectory_overload.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\dev\ballistic-calculate\src\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/guidance_system/guidance_system.c.obj"
+	D:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/guidance_system/guidance_system.c.obj -MF CMakeFiles\trajectory_overload.dir\D_\dev\ballistic-calculate\components\calculate\guidance_system\guidance_system.c.obj.d -o CMakeFiles\trajectory_overload.dir\D_\dev\ballistic-calculate\components\calculate\guidance_system\guidance_system.c.obj -c D:\dev\ballistic-calculate\components\calculate\guidance_system\guidance_system.c
+
+CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/guidance_system/guidance_system.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/guidance_system/guidance_system.c.i"
+	D:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\dev\ballistic-calculate\components\calculate\guidance_system\guidance_system.c > CMakeFiles\trajectory_overload.dir\D_\dev\ballistic-calculate\components\calculate\guidance_system\guidance_system.c.i
+
+CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/guidance_system/guidance_system.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/guidance_system/guidance_system.c.s"
+	D:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\dev\ballistic-calculate\components\calculate\guidance_system\guidance_system.c -o CMakeFiles\trajectory_overload.dir\D_\dev\ballistic-calculate\components\calculate\guidance_system\guidance_system.c.s
+
 CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.c.obj: CMakeFiles/trajectory_overload.dir/flags.make
 CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.c.obj: CMakeFiles/trajectory_overload.dir/includes_C.rsp
 CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.c.obj: D:/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.c
 CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.c.obj: CMakeFiles/trajectory_overload.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\dev\ballistic-calculate\src\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\dev\ballistic-calculate\src\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.c.obj"
 	D:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.c.obj -MF CMakeFiles\trajectory_overload.dir\D_\dev\ballistic-calculate\components\calculate\missile_trajectory\missile_trajectory.c.obj.d -o CMakeFiles\trajectory_overload.dir\D_\dev\ballistic-calculate\components\calculate\missile_trajectory\missile_trajectory.c.obj -c D:\dev\ballistic-calculate\components\calculate\missile_trajectory\missile_trajectory.c
 
 CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.c.i: cmake_force
@@ -117,7 +132,7 @@ CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calcula
 CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.obj: CMakeFiles/trajectory_overload.dir/includes_C.rsp
 CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.obj: D:/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c
 CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.obj: CMakeFiles/trajectory_overload.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\dev\ballistic-calculate\src\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\dev\ballistic-calculate\src\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.obj"
 	D:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.obj -MF CMakeFiles\trajectory_overload.dir\D_\dev\ballistic-calculate\components\calculate\strategy_trajectory\strategy_trajectory.c.obj.d -o CMakeFiles\trajectory_overload.dir\D_\dev\ballistic-calculate\components\calculate\strategy_trajectory\strategy_trajectory.c.obj -c D:\dev\ballistic-calculate\components\calculate\strategy_trajectory\strategy_trajectory.c
 
 CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.i: cmake_force
@@ -128,11 +143,26 @@ CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calcula
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.s"
 	D:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\dev\ballistic-calculate\components\calculate\strategy_trajectory\strategy_trajectory.c -o CMakeFiles\trajectory_overload.dir\D_\dev\ballistic-calculate\components\calculate\strategy_trajectory\strategy_trajectory.c.s
 
+CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/trajectory_overload/trajectory_overload.c.obj: CMakeFiles/trajectory_overload.dir/flags.make
+CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/trajectory_overload/trajectory_overload.c.obj: CMakeFiles/trajectory_overload.dir/includes_C.rsp
+CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/trajectory_overload/trajectory_overload.c.obj: D:/dev/ballistic-calculate/components/calculate/trajectory_overload/trajectory_overload.c
+CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/trajectory_overload/trajectory_overload.c.obj: CMakeFiles/trajectory_overload.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\dev\ballistic-calculate\src\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/trajectory_overload/trajectory_overload.c.obj"
+	D:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/trajectory_overload/trajectory_overload.c.obj -MF CMakeFiles\trajectory_overload.dir\D_\dev\ballistic-calculate\components\calculate\trajectory_overload\trajectory_overload.c.obj.d -o CMakeFiles\trajectory_overload.dir\D_\dev\ballistic-calculate\components\calculate\trajectory_overload\trajectory_overload.c.obj -c D:\dev\ballistic-calculate\components\calculate\trajectory_overload\trajectory_overload.c
+
+CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/trajectory_overload/trajectory_overload.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/trajectory_overload/trajectory_overload.c.i"
+	D:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\dev\ballistic-calculate\components\calculate\trajectory_overload\trajectory_overload.c > CMakeFiles\trajectory_overload.dir\D_\dev\ballistic-calculate\components\calculate\trajectory_overload\trajectory_overload.c.i
+
+CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/trajectory_overload/trajectory_overload.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/trajectory_overload/trajectory_overload.c.s"
+	D:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\dev\ballistic-calculate\components\calculate\trajectory_overload\trajectory_overload.c -o CMakeFiles\trajectory_overload.dir\D_\dev\ballistic-calculate\components\calculate\trajectory_overload\trajectory_overload.c.s
+
 CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/log/log.c.obj: CMakeFiles/trajectory_overload.dir/flags.make
 CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/log/log.c.obj: CMakeFiles/trajectory_overload.dir/includes_C.rsp
 CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/log/log.c.obj: D:/dev/ballistic-calculate/components/log/log.c
 CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/log/log.c.obj: CMakeFiles/trajectory_overload.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\dev\ballistic-calculate\src\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/log/log.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\dev\ballistic-calculate\src\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/log/log.c.obj"
 	D:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/log/log.c.obj -MF CMakeFiles\trajectory_overload.dir\D_\dev\ballistic-calculate\components\log\log.c.obj.d -o CMakeFiles\trajectory_overload.dir\D_\dev\ballistic-calculate\components\log\log.c.obj -c D:\dev\ballistic-calculate\components\log\log.c
 
 CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/log/log.c.i: cmake_force
@@ -147,8 +177,10 @@ CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/log/log
 trajectory_overload_OBJECTS = \
 "CMakeFiles/trajectory_overload.dir/trajectory_overload/main.c.obj" \
 "CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/algorithm/algorithm.c.obj" \
+"CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/guidance_system/guidance_system.c.obj" \
 "CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.c.obj" \
 "CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.obj" \
+"CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/trajectory_overload/trajectory_overload.c.obj" \
 "CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/log/log.c.obj"
 
 # External object files for target trajectory_overload
@@ -156,14 +188,16 @@ trajectory_overload_EXTERNAL_OBJECTS =
 
 trajectory_overload.exe: CMakeFiles/trajectory_overload.dir/trajectory_overload/main.c.obj
 trajectory_overload.exe: CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/algorithm/algorithm.c.obj
+trajectory_overload.exe: CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/guidance_system/guidance_system.c.obj
 trajectory_overload.exe: CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/missile_trajectory/missile_trajectory.c.obj
 trajectory_overload.exe: CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/strategy_trajectory/strategy_trajectory.c.obj
+trajectory_overload.exe: CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/calculate/trajectory_overload/trajectory_overload.c.obj
 trajectory_overload.exe: CMakeFiles/trajectory_overload.dir/D_/dev/ballistic-calculate/components/log/log.c.obj
 trajectory_overload.exe: CMakeFiles/trajectory_overload.dir/build.make
 trajectory_overload.exe: CMakeFiles/trajectory_overload.dir/linkLibs.rsp
 trajectory_overload.exe: CMakeFiles/trajectory_overload.dir/objects1.rsp
 trajectory_overload.exe: CMakeFiles/trajectory_overload.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\dev\ballistic-calculate\src\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable trajectory_overload.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\dev\ballistic-calculate\src\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable trajectory_overload.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\trajectory_overload.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
