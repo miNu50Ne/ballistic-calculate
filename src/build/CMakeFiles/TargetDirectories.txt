@@ -1,6 +1,0 @@
-D:/dev/ballistic-calculate/src/build/CMakeFiles/guidance_system.dir
-D:/dev/ballistic-calculate/src/build/CMakeFiles/missile_trajectory.dir
-D:/dev/ballistic-calculate/src/build/CMakeFiles/strategy_trajectory.dir
-D:/dev/ballistic-calculate/src/build/CMakeFiles/trajectory_overload.dir
-D:/dev/ballistic-calculate/src/build/CMakeFiles/edit_cache.dir
-D:/dev/ballistic-calculate/src/build/CMakeFiles/rebuild_cache.dir

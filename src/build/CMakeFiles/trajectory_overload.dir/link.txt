@@ -1,3 +1,0 @@
-"D:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\trajectory_overload.dir/objects.a
-D:\msys64\mingw64\bin\ar.exe qc CMakeFiles\trajectory_overload.dir/objects.a @CMakeFiles\trajectory_overload.dir\objects1.rsp
-D:\msys64\mingw64\bin\cc.exe -g -Wl,--whole-archive CMakeFiles\trajectory_overload.dir/objects.a -Wl,--no-whole-archive -o trajectory_overload.exe -Wl,--out-implib,libtrajectory_overload.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\trajectory_overload.dir\linkLibs.rsp

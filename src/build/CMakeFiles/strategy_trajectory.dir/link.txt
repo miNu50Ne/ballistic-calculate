@@ -1,3 +1,0 @@
-"D:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\strategy_trajectory.dir/objects.a
-D:\msys64\mingw64\bin\ar.exe qc CMakeFiles\strategy_trajectory.dir/objects.a @CMakeFiles\strategy_trajectory.dir\objects1.rsp
-D:\msys64\mingw64\bin\cc.exe -g -Wl,--whole-archive CMakeFiles\strategy_trajectory.dir/objects.a -Wl,--no-whole-archive -o strategy_trajectory.exe -Wl,--out-implib,libstrategy_trajectory.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\strategy_trajectory.dir\linkLibs.rsp
