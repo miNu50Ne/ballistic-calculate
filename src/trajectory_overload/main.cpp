@@ -8,10 +8,5 @@
  * @copyright Copyright (c) 2025
  *
  */
-#include "components/calculate/trajectory_overload/trajectory_overload.h"
 
-int main() {
-    speed_tracking_calc();
-    proportional_guidance();
-    return 0;
-}
+int main() { return 0; }

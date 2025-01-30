@@ -9,8 +9,6 @@
  *
  */
 
-#include "components/calculate/missile_trajectory/missile_trajectory.h"
-
 int main() {
     // missile_trajectory_calc();
     return 0;
