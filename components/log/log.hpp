@@ -13,4 +13,6 @@
 #include <iostream>
 #include <string>
 
-namespace components {} // namespace components
+namespace components::logger {
+    
+} // namespace components::logger
