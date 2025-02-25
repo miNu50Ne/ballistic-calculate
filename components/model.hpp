@@ -1,6 +1,6 @@
 #include <eigen3/Eigen/Dense>
 #include <eigen3/Eigen/src/Core/Matrix.h>
-namespace components::model {
+namespace component::model {
 class Model {
 public:
     Model() {}
@@ -26,4 +26,4 @@ private:
 
     Eigen::Vector3d velocity_;
 };
-} // namespace components::model
+} // namespace component::model
