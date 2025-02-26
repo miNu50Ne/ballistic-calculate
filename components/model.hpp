@@ -1,5 +1,5 @@
 #include <eigen3/Eigen/Dense>
-#include <eigen3/Eigen/src/Core/Matrix.h>
+
 namespace component::model {
 class Model {
 public:

@@ -1,6 +1,16 @@
+#include <cstdarg>
 #include <cstdio>
 #include <ctime>
 #include <iomanip>
+
+// #define LOG_INFO(format, ...) std::fprintf(stdout, "[INFO] " format "\n" __VA_OPT__(, )
+// __VA_ARGS__)
+
+// #define LOG_WARN(format, ...) std::fprintf(stderr, "[WARN] " format "\n" __VA_OPT__(, )
+// __VA_ARGS__)
+
+// #define LOG_ERROR(format, ...) \
+//     std::fprintf(stderr, "[ERROR] " format "\n" __VA_OPT__(, ) __VA_ARGS__)
 
 namespace component::log {
 
@@ -18,21 +28,28 @@ public:
 
     void set_log_level(LogLevel level) { log_level_ = level; }
 
-    template <typename... Args>
-    void log_message(LogLevel level, const chat& format) {}
+    void log_message(const std::string message, ...) {
 
-    void debug() {}
-    void info() {}
-    void warn() {}
-    void error() {}
-    void fatal() {}
+        va_list args;
+        va_start(args, message);
+
+        std::string format_message =
+            log_time() + "[" + logger_ + "]" + log_level(log_level_) + message + "\n";
+
+        if (log_level_ <= LogLevel::LOG_INFO) {
+            std::vfprintf(stdout, format_message.c_str(), args);
+        } else {
+            std::vfprintf(stderr, format_message.c_str(), args);
+        }
+
+        va_end(args);
+    }
 
 private:
     const std::string& logger_;
     LogLevel log_level_;
 
-    // 获取当前时间戳
-    std::string getCurrentTime() {
+    std::string log_time() {
         std::time_t timestamp = std::time(nullptr);
         std::tm* localtime_   = std::localtime(&timestamp);
         std::ostringstream oss;
